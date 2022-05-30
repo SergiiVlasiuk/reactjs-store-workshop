@@ -1,10 +1,11 @@
 import React from 'react'
+import ProductSection from '../pages/ProductSection'
 
 const Main = () => {
   return (
     <main>
       <div className="container">
-        Main part
+        <ProductSection />
       </div>
     </main>
   )
