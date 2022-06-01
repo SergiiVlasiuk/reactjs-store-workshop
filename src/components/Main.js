@@ -1,11 +1,12 @@
 import React from 'react'
-import ProductSection from '../pages/ProductSection'
+import { useRoutes } from '../routes'
 
 const Main = () => {
+  const routes = useRoutes()
   return (
     <main>
       <div className="container">
-        <ProductSection />
+        {routes}
       </div>
     </main>
   )

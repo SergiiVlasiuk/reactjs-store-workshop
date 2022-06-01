@@ -1,7 +1,7 @@
 import React from 'react'
 import Products from '../components/products/Products'
 
-const ProductSection = () => {
+const ProductSectionPage = () => {
   return (
     <section className="product-list">
       <Products />
@@ -9,4 +9,4 @@ const ProductSection = () => {
   )
 }
 
-export default ProductSection
+export default ProductSectionPage
