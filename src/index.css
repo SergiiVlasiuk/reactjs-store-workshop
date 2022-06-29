@@ -10,6 +10,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -35,16 +41,12 @@ footer {
 }
 
 .header__link {
-    margin: auto;
-}
-
-.shopping-icon {
-    position: absolute;
-    /* left: 90%;
-    transform: translateX(-90%); */
-    right: 1em;
-    /* size: 70px; */
-    margin: auto 0;
+    display: block;
+    /* padding: 1.3em; */
+    color: #00112c;
+    margin: 0 auto;
+    text-decoration: none;
+    position: relative;
 }
 
 .footer__copyright {

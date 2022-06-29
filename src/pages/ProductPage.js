@@ -1,10 +1,9 @@
-import { useParams } from 'react-router-dom'
+import ProductDetail from '../components/products/ProductDetail'
 
 const ProductPage = () => {
-  const { id } = useParams()
   return (
     <div>
-      Product Page: {id}
+      <ProductDetail />
     </div>
   )
 }
