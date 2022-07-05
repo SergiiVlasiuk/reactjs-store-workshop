@@ -1,0 +1,21 @@
+.shopping-cart__product-section {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.shopping-cart__products {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto 70px 100px 120px;
+    /* grid-template-rows: 100px auto; */
+    align-items: center;
+    justify-items: center;
+    /* align-content: center; */
+    /* justify-content: center; */
+    border: 1px solid black;
+}
+
+.shopping-cart__products>div {
+    border: 1px solid black;
+}

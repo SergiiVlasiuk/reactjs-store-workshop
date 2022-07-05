@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import CartIcon from './shopping-cart/CartIcon'
+import ShoppingCartIcon from './shopping-cart/ShoppingCartIcon'
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         {/* <Link to='/' className='product-list__item_item' > */}
         {/* <h1 className="header__link">Header</h1> */}
         {/* </Link> */}
-        <CartIcon />
+        <ShoppingCartIcon />
       </div>
     </header>
   )

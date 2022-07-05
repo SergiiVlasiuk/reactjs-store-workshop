@@ -1,0 +1,38 @@
+.product-detail__product {
+    max-width: 100%;
+    align-self: center;
+}
+
+.product-detail__title {
+    display: inline-block;
+    font-size: 2em;
+    margin: 8px 0 0;
+}
+
+.product-detail__price {
+    color: #687282;
+    font-size: 0.81em;
+}
+
+.product-detail__description {
+    font-size: 0.875em;
+    line-height: 1.5em;
+    margin: 24px 0 16px;
+}
+
+@media (min-width: 768px) {
+    .product-detail {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .product-detail__product {
+        max-width: 50%;
+    }
+    .product-detail__container {
+        max-width: 50%;
+        padding-right: 65px;
+    }
+    .product-detail__button {
+        max-width: 205px;
+    }
+}
